@@ -33,3 +33,9 @@ def students_in_line(heights):
 students_in_line([1,1,2,1,3,4])
 students_in_line([1,2,3,4,5])
 students_in_line([5,4,5,2,1])
+
+
+def count(arr):
+	return len(list(filter(lambda x: len(str(x)) % 2 == 0, arr)))
+
+print(count([1, 25, 6767, 345, 6666]))
